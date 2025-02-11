@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z2_Schemat_map.ncd Z2_Schemat.ngd Z2_Schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z2_Schemat_map.ncd Z2_Schemat.ncd Z2_Schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z2_Schemat.twx Z2_Schemat.ncd -o Z2_Schemat.twr Z2_Schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z2_Schemat_map.ncd Z2_Schemat.ngd Z2_Schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z2_Schemat_map.ncd Z2_Schemat.ncd Z2_Schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z2_Schemat.twx Z2_Schemat.ncd -o Z2_Schemat.twr Z2_Schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z2_Schemat_map.ncd Z2_Schemat.ngd Z2_Schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z2_Schemat_map.ncd Z2_Schemat.ncd Z2_Schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z2_Schemat.twx Z2_Schemat.ncd -o Z2_Schemat.twr Z2_Schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z2_Schemat.ut Z2_Schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z2_Schemat_map.ncd Z2_Schemat.ngd Z2_Schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z2_Schemat_map.ncd Z2_Schemat.ncd Z2_Schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z2_Schemat.twx Z2_Schemat.ncd -o Z2_Schemat.twr Z2_Schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z2_Schemat.ut Z2_Schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z2_Schemat.ngc Z2_Schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z2_Schemat_map.ncd Z2_Schemat.ngd Z2_Schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z2_Schemat_map.ncd Z2_Schemat.ncd Z2_Schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z2_Schemat.twx Z2_Schemat.ncd -o Z2_Schemat.twr Z2_Schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z2_Schemat.ut Z2_Schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z2_Schemat.syr" 

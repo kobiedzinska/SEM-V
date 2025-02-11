@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/XilinxPrj/UCISW3/ModuloTestBench_isim_beh.exe" -prj "C:/XilinxPrj/UCISW3/ModuloTestBench_beh.prj" "work.ModuloTestBench" 

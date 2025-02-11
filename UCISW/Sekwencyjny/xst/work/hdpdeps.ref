@@ -1,0 +1,8 @@
+V3 14
+FL C:/XilinxPrj/Sekwencyjny/Schemat.vhf 2024/11/05.13:56:28 P.20131013
+EN work/Schemat 1730811390 FL C:/XilinxPrj/Sekwencyjny/Schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Schemat/BEHAVIORAL 1730811391 \
+      FL C:/XilinxPrj/Sekwencyjny/Schemat.vhf EN work/Schemat 1730811390 CP OR3 \
+      CP OR2 CP AND2B1 CP AND3B2 CP AND3B1 CP XNOR2 CP AND2 CP OR2B1 CP FDCE

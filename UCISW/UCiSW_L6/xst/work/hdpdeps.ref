@@ -1,0 +1,24 @@
+V3 18
+FL C:/XilinxPrj/UCiSW_L6/Z1.vhd 2024/12/17.12:45:41 P.20131013
+EN work/Z1 1734435945 FL C:/XilinxPrj/UCiSW_L6/Z1.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Z1/Behavioral 1734435946 \
+      FL C:/XilinxPrj/UCiSW_L6/Z1.vhd EN work/Z1 1734435945
+FL C:/XilinxPrj/UCiSW_L6/Z1schemat.vhf 2024/12/17.12:16:00 P.20131013
+EN work/Z1schemat 1734435947 FL C:/XilinxPrj/UCiSW_L6/Z1schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z1schemat/BEHAVIORAL 1734435948 \
+      FL C:/XilinxPrj/UCiSW_L6/Z1schemat.vhf EN work/Z1schemat 1734435947 CP Z1 \
+      CP LCD1x64 CP PS2_Kbd
+FL C:/XilinxPrj/UCiSW_L6/Z2.vhd 2024/12/17.13:50:06 P.20131013
+EN work/Z2 1734439810 FL C:/XilinxPrj/UCiSW_L6/Z2.vhd PB ieee/std_logic_1164 1381692176
+AR work/Z2/Behavioral 1734439811 \
+      FL C:/XilinxPrj/UCiSW_L6/Z2.vhd EN work/Z2 1734439810
+FL C:/XilinxPrj/UCiSW_L6/Z2_Schemat.vhf 2024/12/17.13:41:40 P.20131013
+EN work/Z2_Schemat 1734439812 FL C:/XilinxPrj/UCiSW_L6/Z2_Schemat.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Z2_Schemat/BEHAVIORAL 1734439813 \
+      FL C:/XilinxPrj/UCiSW_L6/Z2_Schemat.vhf EN work/Z2_Schemat 1734439812 \
+      CP LCDWrite CP PS2_Kbd CP Z2

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/XilinxPrj/UCISW3v2/ReversoTestBench_isim_beh.exe" -prj "C:/XilinxPrj/UCISW3v2/ReversoTestBench_beh.prj" "work.ReversoTestBench" 

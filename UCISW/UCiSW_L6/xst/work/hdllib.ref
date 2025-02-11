@@ -1,0 +1,8 @@
+EN z2_schemat NULL C:/XilinxPrj/UCiSW_L6/Z2_Schemat.vhf sub00/vhpl06 1734439812
+EN z1schemat NULL C:/XilinxPrj/UCiSW_L6/Z1schemat.vhf sub00/vhpl02 1734435947
+AR z2 behavioral C:/XilinxPrj/UCiSW_L6/Z2.vhd sub00/vhpl05 1734439811
+EN z1 NULL C:/XilinxPrj/UCiSW_L6/Z1.vhd sub00/vhpl00 1734435945
+EN z2 NULL C:/XilinxPrj/UCiSW_L6/Z2.vhd sub00/vhpl04 1734439810
+AR z2_schemat behavioral C:/XilinxPrj/UCiSW_L6/Z2_Schemat.vhf sub00/vhpl07 1734439813
+AR z1schemat behavioral C:/XilinxPrj/UCiSW_L6/Z1schemat.vhf sub00/vhpl03 1734435948
+AR z1 behavioral C:/XilinxPrj/UCiSW_L6/Z1.vhd sub00/vhpl01 1734435946

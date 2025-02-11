@@ -1,0 +1,235 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="paths.js"></script><script src="eqns.js"></script><script>
+      var design = "Z2";
+      var device = "XC9572XL";
+      signals = new Array("OpTxOpTxFX_DC5_INV34_SPECSIG","Q0_SPECSIG","Q1_SPECSIG","Q2_SPECSIG","Q_0Q_0_RSTF_SPECSIG","Q_1Q_1_SETF_SPECSIG","Q_2Q_2_RSTF_SPECSIG","Q_2Q_2_SETF_SPECSIG","Y","state_FSM_FFd1","state_FSM_FFd2","state_FSM_FFd3");
+      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("","D","D","D","","","","","","D","D","D");
+
+      
+        specSig["b_SPECSIG"]=new Array("(b)");
+      
+        specSig["Q_1Q_1_SETF_SPECSIG"]=new Array("Q_1/Q_1_SETF");
+      
+        specSig["Q_0Q_0_RSTF_SPECSIG"]=new Array("Q_0/Q_0_RSTF");
+      
+        specSig["Q0_SPECSIG"]=new Array("Q<0>");
+      
+        specSig["Q1_SPECSIG"]=new Array("Q<1>");
+      
+        specSig["Q2_SPECSIG"]=new Array("Q<2>");
+      
+        specSig["OpTxOpTxFX_DC5_INV34_SPECSIG"]=new Array("$OpTx$$OpTx$FX_DC$5_INV$34");
+      
+        specSig["Q_2Q_2_SETF_SPECSIG"]=new Array("Q_2/Q_2_SETF");
+      
+        specSig["Q_2Q_2_RSTF_SPECSIG"]=new Array("Q_2/Q_2_RSTF");
+      
+            pterms["FB2_2_1"]=new Array("X","state_FSM_FFd1","/state_FSM_FFd2");
+          
+            pterms["FB2_11_1"]=new Array("/X","state_FSM_FFd1","/state_FSM_FFd2","/state_FSM_FFd3");
+          
+            pterms["FB2_12_1"]=new Array("/CE","/RST","state_FSM_FFd1");
+          
+            pterms["FB2_12_2"]=new Array("X","CE","/RST","state_FSM_FFd2");
+          
+            pterms["FB2_13_1"]=new Array("state_FSM_FFd2","/state_FSM_FFd3");
+          
+            pterms["FB2_13_2"]=new Array("X","state_FSM_FFd1","/state_FSM_FFd3");
+          
+            pterms["FB2_14_1"]=new Array("state_FSM_FFd3");
+          
+            pterms["FB2_14_2"]=new Array("/state_FSM_FFd1","/state_FSM_FFd2");
+          
+            pterms["FB2_15_1"]=new Array("state_FSM_FFd1","state_FSM_FFd3");
+          
+            pterms["FB2_15_2"]=new Array("/state_FSM_FFd1","state_FSM_FFd2");
+          
+            pterms["FB2_16_1"]=new Array("/X","CE","/RST");
+          
+            pterms["FB2_16_2"]=new Array("/CE","/RST","state_FSM_FFd3");
+          
+            pterms["FB2_16_3"]=new Array("CE","/RST","/state_FSM_FFd1","state_FSM_FFd2");
+          
+            pterms["FB2_17_1"]=new Array("/state_FSM_FFd1","state_FSM_FFd2");
+          
+            pterms["FB2_17_2"]=new Array("/state_FSM_FFd1","/state_FSM_FFd3");
+          
+            pterms["FB2_17_3"]=new Array("state_FSM_FFd2","/state_FSM_FFd3");
+          
+            pterms["FB2_18_1"]=new Array("/CE","/RST","state_FSM_FFd2");
+          
+            pterms["FB2_18_2"]=new Array("/RST","/state_FSM_FFd1","state_FSM_FFd2");
+          
+            pterms["FB2_18_3"]=new Array("X","CE","/RST","state_FSM_FFd1","state_FSM_FFd3");
+          
+            pterms["FB2_18_4"]=new Array("/X","CE","/RST","/state_FSM_FFd2","state_FSM_FFd3");
+          
+            pterms["FB4_14_1"]=new Array("Q_0Q_0_RSTF_SPECSIG");
+          
+            pterms["FB4_14_2"]=new Array("/Q_0Q_0_RSTF_SPECSIG","/OpTxOpTxFX_DC5_INV34_SPECSIG");
+          
+            pterms["FB4_15_1"]=new Array("/OpTxOpTxFX_DC5_INV34_SPECSIG","/Q_1Q_1_SETF_SPECSIG");
+          
+            pterms["FB4_15_2"]=new Array("Q_1Q_1_SETF_SPECSIG");
+          
+            pterms["FB4_17_1"]=new Array("Q_2Q_2_RSTF_SPECSIG");
+          
+            pterms["FB4_17_2"]=new Array("Q_2Q_2_SETF_SPECSIG");
+          
+          d2["Y"]=new Array("FB2_2_1");
+          
+            d2imp["Y"]=new Array("1");
+          
+          d2["OpTxOpTxFX_DC5_INV34_SPECSIG"]=new Array("FB2_11_1");
+          
+            d2imp["OpTxOpTxFX_DC5_INV34_SPECSIG"]=new Array("1");
+          
+          d2["state_FSM_FFd1"]=new Array("FB2_12_1","FB2_12_2");
+          
+            d2imp["state_FSM_FFd1"]=new Array("1","1");
+          
+              gblclk["state_FSM_FFd1"]=new Array("CLK");
+            prld["state_FSM_FFd1"]="GND";
+          d2["Q_2Q_2_SETF_SPECSIG"]=new Array("FB2_13_1","FB2_13_2");
+          
+            d2imp["Q_2Q_2_SETF_SPECSIG"]=new Array("1","1");
+          
+          d2["Q_2Q_2_RSTF_SPECSIG"]=new Array("FB2_14_1","FB2_14_2");
+          
+            d2imp["Q_2Q_2_RSTF_SPECSIG"]=new Array("1","1");
+          
+          d2["Q_1Q_1_SETF_SPECSIG"]=new Array("FB2_15_1","FB2_15_2");
+          
+            d2imp["Q_1Q_1_SETF_SPECSIG"]=new Array("1","1");
+          
+          d2["state_FSM_FFd3"]=new Array("FB2_16_1","FB2_16_2","FB2_16_3");
+          
+            d2imp["state_FSM_FFd3"]=new Array("1","1","1");
+          
+              gblclk["state_FSM_FFd3"]=new Array("CLK");
+            prld["state_FSM_FFd3"]="GND";
+          d2["Q_0Q_0_RSTF_SPECSIG"]=new Array("FB2_17_1","FB2_17_2","FB2_17_3");
+          
+            d2imp["Q_0Q_0_RSTF_SPECSIG"]=new Array("1","1","1");
+          
+          d2["state_FSM_FFd2"]=new Array("FB2_18_1","FB2_18_2","FB2_18_3","FB2_18_4");
+          
+            d2imp["state_FSM_FFd2"]=new Array("1","1","1","1");
+          
+              gblclk["state_FSM_FFd2"]=new Array("CLK");
+            prld["state_FSM_FFd2"]="GND";
+          d2["Q0_SPECSIG"]=new Array("GND");
+          
+            d2imp["Q0_SPECSIG"]=new Array("1");
+          
+              clk["Q0_SPECSIG"]=new Array("GND");
+              
+                clkimp["Q0_SPECSIG"]=new Array("1");
+              
+              set["Q0_SPECSIG"]=new Array("FB4_14_2");
+              
+                setimp["Q0_SPECSIG"]=new Array("1");
+              
+              rst["Q0_SPECSIG"]=new Array("FB4_14_1");
+              
+                rstimp["Q0_SPECSIG"]=new Array("1");
+              prld["Q0_SPECSIG"]="GND";
+          d2["Q1_SPECSIG"]=new Array("GND");
+          
+            d2imp["Q1_SPECSIG"]=new Array("1");
+          
+              clk["Q1_SPECSIG"]=new Array("GND");
+              
+                clkimp["Q1_SPECSIG"]=new Array("1");
+              
+              set["Q1_SPECSIG"]=new Array("FB4_15_2");
+              
+                setimp["Q1_SPECSIG"]=new Array("1");
+              
+              rst["Q1_SPECSIG"]=new Array("FB4_15_1");
+              
+                rstimp["Q1_SPECSIG"]=new Array("1");
+              prld["Q1_SPECSIG"]="GND";
+          d2["Q2_SPECSIG"]=new Array("GND");
+          
+            d2imp["Q2_SPECSIG"]=new Array("1");
+          
+              clk["Q2_SPECSIG"]=new Array("GND");
+              
+                clkimp["Q2_SPECSIG"]=new Array("1");
+              
+              set["Q2_SPECSIG"]=new Array("FB4_17_2");
+              
+                setimp["Q2_SPECSIG"]=new Array("1");
+              
+              rst["Q2_SPECSIG"]=new Array("FB4_17_1");
+              
+                rstimp["Q2_SPECSIG"]=new Array("1");
+              prld["Q2_SPECSIG"]="GND";
+
+      uimSignals = new Array();
+
+      uimSigNegs = new Array();
+
+      uimPterms = new Array();
+      
+
+      
+        function getEqnList() {
+          var str = "<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>";
+          str += "<center><h3>Equations</h3></center>";
+          str += "<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>";
+          for (s=0; s<uimSignals.length; s++) {
+            str += "<tr><td>";
+            str += retUimEqn(uimSignals[s]);
+            str += "</td></tr>";
+          }
+          for (s=0; s<signals.length; s++) {
+            str += "<tr><td>";
+            str += retEqn(signals[s]);
+            str += "</td></tr>";
+          }
+
+          var legend = retLegend();
+		      if (legend != "") {
+		        str += "<tr><td>" + legend + "</td></tr>";
+		      }
+
+          str += "</table>";
+          str += "<form><span class='pgRef'>";
+
+          if (!parent.leftnav.IsNS()) {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><input type='button' value='back to top' ";
+            str += "onclick='javascript:parent.leftnav.showEqnAll()' ";
+            str += "onmouseover=\"window.status='goto top of page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<input type='button' value='print page' ";
+            str += "onclick='javascript:window.print()' ";
+            str += "onmouseover=\"window.status='print page'; return true;\" ";
+            str += "onmouseout=\"window.status=''\">";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+          else {
+            str += "<table width='90%' align='center'>";
+            str += "<tr><td align='left'><a href='javascript:parent.leftnav.showEqnAll()'>back to top</a>";
+            str += "</td>";
+            str += "<td align='right'>";
+            str += "<a href='javascript:window.print()'>";
+            str += "print page</a>";
+            str += "</td>";
+            str += "</tr></table>";
+          }
+
+          str += "</span></form>";
+          str += "</body></html>";
+          return str;
+        }
+      
+    </script>
+</head></html>

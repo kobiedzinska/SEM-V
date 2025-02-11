@@ -1,0 +1,28 @@
+Command line:
+   Z2_TestBench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62475
+
+Tue Dec 17 14:03:50 2024
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5151.36 Meg
+
+ Total Signals          : 20
+ Total Nets             : 25
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 7
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 386
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4994.08 Meg
+
+Tue Dec 17 14:05:07 2024
+

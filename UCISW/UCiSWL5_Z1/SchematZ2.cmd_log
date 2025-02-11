@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+taengine -intstyle ise -f SchematZ2 -w --format html1 -l SchematZ2_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+XSLTProcess SchematZ2_build.xml 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+XSLTProcess SchematZ2_build.xml 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+XSLTProcess SchematZ2_build.xml 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+XSLTProcess SchematZ2_build.xml 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 SchematZ2.ngc SchematZ2.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SchematZ2.ngd 
+XSLTProcess SchematZ2_build.xml 
+tsim -intstyle ise SchematZ2 SchematZ2.nga 
+hprep6 -s IEEE1149 -n SchematZ2 -i SchematZ2 

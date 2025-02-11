@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z1schemat.ut Z1schemat.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z1schemat.ut Z1schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z1schemat.ut Z1schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z1schemat.ut Z1schemat.ncd 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1schemat.ngc Z1schemat.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Z1schemat_map.ncd Z1schemat.ngd Z1schemat.pcf 
+par -w -intstyle ise -ol high -t 1 Z1schemat_map.ncd Z1schemat.ncd Z1schemat.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Z1schemat.twx Z1schemat.ncd -o Z1schemat.twr Z1schemat.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Z1schemat.ut Z1schemat.ncd 

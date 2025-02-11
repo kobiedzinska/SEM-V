@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSW_L6/Z1.xst" -ofn "C:/XilinxPrj/UCiSW_L6/Z1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-4 Z1.ngc Z1.ngd  
+vhdtdtfi -lib work Z1.vhd -prj UCiSW_L6 -o Z1.spl -module Z1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Z1.spl C:/XilinxPrj/UCiSW_L6/Z1.sym 

@@ -1,0 +1,57 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y1(0) <= X(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y1(1) <= NOT (X(0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y1(1) <= NOT (X(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y1(2) <= ((X(2) AND NOT X(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (X(2) AND NOT X(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(2) AND X(1) AND X(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y1(3) <= ((X(3) AND X(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (X(3) AND X(1) AND X(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(3) AND NOT X(2) AND NOT X(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(3) AND NOT X(2) AND NOT X(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y2(0) <= X(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y2(1) <= NOT (X(0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 XOR 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y2(1) <= NOT (X(1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y2(2) <= ((X(2) AND NOT X(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (X(2) AND NOT X(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(2) AND X(1) AND X(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Y2(3) <= ((X(3) AND X(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (X(3) AND X(1) AND X(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(3) AND NOT X(2) AND NOT X(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT X(3) AND NOT X(2) AND NOT X(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

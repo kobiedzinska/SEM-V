@@ -1,0 +1,2 @@
+vhdl work "Reverso.vhd"
+vhdl work "ReversoTestBench.vhd"

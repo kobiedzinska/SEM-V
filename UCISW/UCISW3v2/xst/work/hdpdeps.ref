@@ -1,0 +1,6 @@
+V3 5
+FL C:/XilinxPrj/UCISW3v2/Reverso.vhd 2024/11/19.14:03:15 P.20131013
+EN work/Reverso 1732021397 FL C:/XilinxPrj/UCISW3v2/Reverso.vhd \
+      PB ieee/std_logic_1164 1381692176 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Reverso/Behavioral 1732021398 \
+      FL C:/XilinxPrj/UCISW3v2/Reverso.vhd EN work/Reverso 1732021397 CP FDCE

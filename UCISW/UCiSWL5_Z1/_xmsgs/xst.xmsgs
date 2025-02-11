@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.vhf</arg>&quot; line <arg fmt="%d" index="2">80</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">RS232_TX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">C:/XilinxPrj/UCiSWL5_Z1/SchematZ2.vhf</arg>&quot; line <arg fmt="%d" index="2">88</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">PS2_RX</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">iter</arg>&gt; in unit &lt;<arg fmt="%s" index="2">Z1</arg>&gt; has a constant value of <arg fmt="%s" index="3">00</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">iter</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+</messages>
+

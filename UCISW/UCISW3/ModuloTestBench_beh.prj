@@ -1,0 +1,2 @@
+vhdl work "Modulo.vhd"
+vhdl work "ModuloTestBench.vhd"

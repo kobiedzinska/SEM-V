@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/XilinxPrj/UCiSWL5_Z1/Z1schemat.xst" -ofn "C:/XilinxPrj/UCiSWL5_Z1/Z1schemat.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc "C:/Users/lab/Downloads/ZL-9572(ucf) (30)/ZL-9572.ucf" -p xc9572xl-PC44-10 Z1schemat.ngc Z1schemat.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper Z1schemat.ngd 
+XSLTProcess Z1schemat_build.xml 
+tsim -intstyle ise Z1schemat Z1schemat.nga 
+taengine -intstyle ise -f Z1schemat -w --format html1 -l Z1schemat_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n Z1schemat -i Z1schemat 

@@ -1,0 +1,6 @@
+select figure at 428 542 8 -branches -sn=1
+select all in 428 542 921 1019 -branches -enclosed -sn=1
+select figure at 553 584 8 -branches -sn=1
+select all in 553 584 921 1007 -branches -enclosed -sn=1
+select figure at 1271 814 8 -branches -sn=1
+select figure at 1609 743 8 -branches -sn=1
